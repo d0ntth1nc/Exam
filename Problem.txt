@@ -1,0 +1,49 @@
+Problem 1 – Sasheto and Vankata
+
+
+Sasheto and Vankata are very famous. They are roommates now and have problems with the money. They make parties too often and someone needs to make some calculations. Vankata is too smart to waste his time and Sasheto is too stupid to do any calculations.
+
+Every party they drink 2 littres of beer in the first hour. Every subsequent hour they drink 0.5 littres more than the previous hour. They start the party with 1 box of cigarettes and buy another one at every 3rd hour.
+
+1 liter of beer costs 1.23 leva and 1 box of cigarettes costs 4.69 leva.
+
+Your task is to make a program that calculates the total amount of spent money. 
+
+
+Input
+Input data should be read from the console. 
+The count (n) of parties they made is on the first input line.
+The next n lines will contain the duration of each party.
+The input data will always be valid and in the format described. There is no need to check it explicitly.
+
+
+Output
+The output data must be printed on the console.
+On the first output line you should print the total money they spent with two digits after the decimal point (see the example).
+
+
+Constraints
+The count (n) of parties will be an integer between 1 and 100, inclusive.
+The duration of each party will be an integer between 1 and 20, inclusive.
+Allowed working time for your program: 0.1 seconds.
+Allowed memory: 2 MB.
+
+
+Input
+	1
+	6
+
+Output
+	38.06
+	
+Comment
+	They start with 2 littres of beer.
+	2 + 2.5 + 3 + 3.5 + 4 + 4.5 = 19.5
+
+	They also start with 1 box of cigarettes. They bought one more at the 3rd and 6th hours.
+	1 + 1 + 1 = 3
+
+	The total money is:
+	(19.5 * 1.23) + (3 * 4.69) = 38.055 = 38.06
+
+ 
